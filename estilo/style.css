@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Petit+Formal+Script&family=Sriracha&display=swap');
+:root{
+ 
+    --font2:  'Petit Formal Script', cursive;
+}
+    
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+html,body{
+    min-width: 100vh;
+    background-color: darkgray;
+    font-family: 'Petit Formal Script', cursive;
+    
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: inset 6px 6px 13px 0px #ac1593;
+}
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8vw;
+
+
+
+}
+header > p{
+    padding-bottom: 30px;
+    font-family: 'Sriracha', cursive;
+    
+}
+ header a,footer a{
+    color: #3517da;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+}
+header a :hover,footer a:hover{
+    text-decoration: underline;
+    
+    
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 4vh;
+}
+section > p{
+    padding-bottom: 5em;
+}
+section.normal{
+    background-color: white;
+    color: #080707;
+    box-shadow: inset 6px 6px 13px 0px #ac1593;
+    
+}
+section.imagen{
+    background-color: #686363c9;
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px #1589ac;
+    
+}
+section.imagen > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: #2522227c;
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+   
+    
+}
+section#img02{
+    background-image: url('../imagens/background002.jpg');
+}
+   
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-family: 'Sriracha', cursive;
+    box-shadow: inset 6px 6px 13px 0px #6cca60;
+
+}
